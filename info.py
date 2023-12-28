@@ -1,4 +1,3 @@
--1001790957739
 import re
 import os
 from os import environ
@@ -92,7 +91,7 @@ MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/CV_Offical")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+TMCviP7KUY8yZjI9")
 MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐒𝐢𝐫 💜')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
-LOG_CHANNEL =-1001790957739
+LOG_CHANNEL =-1002116542152
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CV_linkZ')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
