@@ -83,6 +83,7 @@ MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://maki:maki@cluster0.2t0eic
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 # Others
+ANIME = environ.get('ANIME', "t.me/pirate_flicks")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
