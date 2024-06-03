@@ -11,20 +11,4 @@ services:
     envVars:
       - key: BOT_TOKEN
         sync: false
-      - key: API_ID
-        sync: false
-      - key: API_HASH
-        sync: false
-      - key: UPDATE_CHANNEL
-        sync: false
-      - key: UPDATECHANNEL_ID
-        sync: false
-      - key: LOG_CHANNEL
-        sync: false
-      - key: MONGO_URI
-        sync: false
-      - key: RKN_PIC
-        sync: false
-      - key: ADMIN
-        sync: false
       
