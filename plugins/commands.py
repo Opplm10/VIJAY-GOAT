@@ -233,8 +233,9 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url="t.me/pirate_flicks")
             ] ],
-        protect_content=True if pre == 'filep' else False,)
+        protect_content=True if pre == 'filep' else False,
     )
+ )
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
