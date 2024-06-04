@@ -229,9 +229,8 @@ async def start(client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup([
                     [InlineKeyboardButton('❤️‍🔥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL)) ],
-            [InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url="t.me/pirate_flicks") ] ] )
-        protect_content=True if pre == 'filep' else False,
- )
+            [InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url="t.me/pirate_flicks") ] ] ) )
+        
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
