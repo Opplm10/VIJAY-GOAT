@@ -232,10 +232,9 @@ async def start(client, message):
                 [
                     InlineKeyboardButton('❤️‍🔥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL))
                 ],[
-                                InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url=(ANIME))
- ),
-        protect_content=True if pre == 'filep' else False,
-        )
+                                InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url=(ANIME))]
+            ]),
+        protect_content=True if pre == 'filep' else False,)
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
