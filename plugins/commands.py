@@ -227,14 +227,10 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( 
-            [ [
-                    InlineKeyboardButton('❤️‍🔥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL))
-                ],[
-                    InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url="t.me/pirate_flicks")
-            ] ],
+        reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton('❤️‍🔥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL)) ],
+            [InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url="t.me/pirate_flicks") ] ] )
         protect_content=True if pre == 'filep' else False,
-    )
  )
                     
 
