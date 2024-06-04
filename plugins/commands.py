@@ -232,8 +232,9 @@ async def start(client, message):
                 [
                     InlineKeyboardButton('❤️‍🔥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ❤️‍🔥', url=(MAIN_CHANNEL))
                 ],[
-                                InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url=(ANIME))]
-            ]),
+                    InlineKeyboardButton('🥇 ᴀɴɪᴍᴇ 🥇', url=(ANIME))
+                ]
+            ],
         protect_content=True if pre == 'filep' else False,)
                     
 
