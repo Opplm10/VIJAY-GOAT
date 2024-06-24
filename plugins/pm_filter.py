@@ -1212,7 +1212,7 @@ async def auto_filter(client, msg, spoll=False):
 <blockquote>**⭐️ IMDB ➠ {rating}
 🌏 Country ➠ {countries}
 🔉 Language ➠ {languages}
-⚙️ Genres ➠ {genres}**</blockquote>
+⚙️ Votes ➠ {votes}**</blockquote>
 
 <i>**®️ {message.chat.title}**</i>"""
     if imdb and imdb.get('poster'):
