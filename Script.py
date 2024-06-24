@@ -286,18 +286,15 @@ Name - {}
 Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ
 </b>"""
     IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+<b>🎬 {search} {year}
+{runtime} | {release_date}</b>
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+<blockquote>⭐️ IMDB ➠ {rating}
+🌏 Country ➠ {countries}
+🔉 Language ➠ {languages}
+⚙️ Votes ➠ {votes}</blockquote>
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-
-📖 sᴛᴏʀʏ : {Plot}
-
-©{message.chat.title}</b>
+<i>**®️ {message.chat.title}**</i>
 """
 
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
