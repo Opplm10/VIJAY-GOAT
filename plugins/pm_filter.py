@@ -1209,10 +1209,10 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"""<b>🎬 {search} {year}
 {runtime} | {release_date}</b>
 
-<blockquote>**⭐️ IMDB ➠ {rating}
+<blockquote>⭐️ IMDB ➠ {rating}
 🌏 Country ➠ {countries}
 🔉 Language ➠ {languages}
-⚙️ Votes ➠ {votes}**</blockquote>
+⚙️ Votes ➠ {votes}</blockquote>
 
 <i>**®️ {message.chat.title}**</i>"""
     if imdb and imdb.get('poster'):
