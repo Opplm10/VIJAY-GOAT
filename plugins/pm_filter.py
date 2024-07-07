@@ -601,7 +601,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help2":
         buttons = [[
-            InlineKeyboardButton('🎁 Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ 🎁', callback_data='help')  
+            InlineKeyboardButton('Mᴏʀᴇ Fᴇᴀᴛᴜʀᴇꜱ', callback_data='help')  
         ], [
             InlineKeyboardButton('✮ Fɪʟᴛᴇʀs ✮', callback_data='filters'),
             InlineKeyboardButton('✬ Fɪʟᴇ Sᴛᴏʀᴇ ✬', callback_data='store_file')
@@ -866,8 +866,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/Strelizia_tg'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Strelizia_tg')
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/movieman_22'),
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Leomessi_10_19')
         ], [
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -952,7 +952,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton ('Cᴏɴᴛᴀᴄᴛ', url="t.me/Sathan_Of_Telegram")
+            InlineKeyboardButton ('Cᴏɴᴛᴀᴄᴛ', url="t.me/Leomessi_10_19")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -962,13 +962,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="https://t.me/+pfrDN32ZvVk4MDNl")
+            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="https://t.me/Leomessi_10_19")
                   ],[
-            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/+z4Q23t1RaWpmYmE9"),
-            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/cv_official_channel")
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/cinemaworld_123"),
+            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/cinemaworld_update")
                   ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+jVP2bbMEe8FiOWE1"),
-            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/cv_updatezz")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/cinemaworld_123"),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/moviebot_channel")
                   ],[
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
