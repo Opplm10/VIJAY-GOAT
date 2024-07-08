@@ -299,8 +299,8 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
 ╔═════•✧❅✦❅✧•═════╗
-▣ <a href=https://t.me/+dUuviz7uHWhkYWJl>​Cɪɴᴇᴍᴀ Vɪʟʟᴀ</a>
-▣ <a href=t.me/CV_Official_channel>ᴄᴠ-ᴏꜰꜰɪᴄɪᴀʟ​</a>
+▣ <a href=https://t.me/cinemaworld_123>​𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳</a>
+▣ <a href=t.me/cinemaworld_update>𝙲𝙸𝙽𝙴𝙼𝙰 𝚆𝙾𝚁𝙻𝙳 𝚄𝙿𝙳𝙰𝚃𝙴𝚂​</a>
 ╚═════•✧❅✦❅✧•═════╝</b>"""
 
     RESTART_TXT = """
