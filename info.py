@@ -51,6 +51,7 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/89de0d28af87a9f06751f.jpg")
 PICS = (environ.get('PICS', '')).split()
+STICKER = (environ.get('STICKER', 'CAACAgUAAxkBAAICmmaOu64HXmogWZC8IdCB9wABQeCHtgACGAcAAimzaVe-HiqPelAOoB4E')).split() 
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/314928baed9a9c277072f.jpg")
 
 # Welcome area
