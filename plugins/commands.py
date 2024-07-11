@@ -57,7 +57,7 @@ async def start(client, message):
         await message.reply_sticker(
             sticker=(random.choice(STICKER),
             caption==script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
+            reply_markup==reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
         return
@@ -80,7 +80,7 @@ async def start(client, message):
         await message.reply_sticker(
             sticker=(random.choice(STICKER),
             caption==script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
-            reply_markup=reply_markup,
+            reply_markup==reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
         return
