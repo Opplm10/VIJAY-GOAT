@@ -58,7 +58,7 @@ async def start(client, message):
             sticker=(random.choice(STICKER),
             caption==script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup==reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode==enums.ParseMode.HTML
         )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help", "start", "hehe"]:
@@ -81,7 +81,7 @@ async def start(client, message):
             sticker=(random.choice(STICKER),
             caption==script.SUR_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup==reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode==enums.ParseMode.HTML
         )
         return
     kk, file_id = message.command[1].split("_", 1) if "_" in message.command[1] else (False, False)
